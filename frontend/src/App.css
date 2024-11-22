@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 72px;
+    background-color: rgb(150, 168, 46);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .box:hover {
+    background-color: #45a065;
+  }
+  
+  .icon {
+    font-size: 24px; /* Icon size */
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  /* App.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Optional: Light gray background for header */
+}
